@@ -1,8 +1,3 @@
 <resources>
     <string name="app_name">MiPrimeraApp</string>
-
-    <string name="introduccion">
-        Bienvenidos a esta aplicacion, en donde vamos a ver el uso de strings como recursos,
-        haciendo referencia a ellos, no incluyendolos.
-    </string>
 </resources>
