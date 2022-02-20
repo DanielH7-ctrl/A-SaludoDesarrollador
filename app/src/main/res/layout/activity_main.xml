@@ -16,7 +16,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="629dp"
-        android:text="Hello World!"
+        android:text="Escriba su nombre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,15 +24,16 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="158dp"
+        android:layout_width="196dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="203dp"
-        android:layout_marginBottom="575dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="574dp"
+        android:background="@color/teal_700"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
@@ -44,8 +45,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="70dp"
+        android:layout_marginEnd="51dp"
         android:layout_marginBottom="574dp"
         android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="116dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
 </RelativeLayout>
